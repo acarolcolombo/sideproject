@@ -39,6 +39,23 @@ h2{
     margin: 5px;
 } */
 
+/* #menuBoxes{
+    float: right;
+    display: flex;
+    flex-direction: row;
+   
+ } */
+
+ #contentIntro{
+     display: flex;
+     flex-direction: row;
+     /* flex-wrap: wrap; */
+     /* justify-content: space-evenly; */
+    /* align-items: center; */
+
+
+ }
+
 #today{
     border: 1px solid black;
     height: 300px;
@@ -52,16 +69,29 @@ h2{
     height: auto;
     width: 1240px;
     padding: 20px;
-    background: url(https://static.vecteezy.com/system/resources/previews/000/125/826/non_2x/black-chalkboard-vector-texture.jpg);
+    background: url(https://fresheverything.ca/wp-content/uploads/2015/09/ChalkboardBackground.jpg);
     background-size: 100%;
-    background-repeat: no-repeat; 
+    /* background-repeat: no-repeat;  */
     color: white;
-    font-size: 22 px;
+    font-size: 14pt;
 }
 
+#contentMenu{
+    display: flex;
+    flex-direction: center;
+    background-color: red;
+    text-align: center;
+}
+
+
 #sectionTitleMenu{
+    /* background: url(https://ayoqq.org/images/drawing-chalk-pizza-12.jpg); */
     color: white;
-    display: block;
+    /* display: block; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: green;
 
 
     /* border: 1px solid red; */
@@ -80,6 +110,12 @@ h2{
     
 }
 
+#sectionTitleSub{
+    float: center;
+
+}
+
+
 #visit{
     border: 1px solid black;
     height: 300px;
@@ -95,12 +131,6 @@ h2{
     margin: auto;
 }
 
-#menuBoxes{
-   float: right;
-   display: flex;
-   flex-direction: row;
-  
-}
 
 .guide{
     margin: 20px;
@@ -117,18 +147,18 @@ h2{
     margin: 5px;
 }
 
-h3{
+/* h3{
     font-family: 'Raleway', sans-serif;
     color: white;
     font-weight: bold;
     font-size: 30px;
-    display: block;
+    float: auto;
     border: 1px solid black;
     height: 70px;
     width: 200px;
     padding: 10px;
     margin: 5px;
-}
+} */
 
 .pizzaName{
     font-family: 'Raleway', sans-serif;
