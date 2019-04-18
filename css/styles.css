@@ -1,0 +1,141 @@
+#intro{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    height: 70px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    z-index: 1;
+
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* section{
+    border: 1px solid black;
+    height: 800px;
+    width: 1230px;
+    padding: 20px;
+    margin: 5px;
+} */
+
+#today{
+    border: 1px solid black;
+    height: 300px;
+    width: 1240px;
+    padding: 20px;
+    background-color: yellow;
+}
+
+#menu{
+    border: 1px solid black;
+    height: auto;
+    width: 1240px;
+    padding: 20px;
+    background: url(https://static.vecteezy.com/system/resources/previews/000/125/826/non_2x/black-chalkboard-vector-texture.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    color: white;
+    font-size: 22 px;
+}
+
+#sectionTitleMenu{
+    color: white;
+    display: block;
+
+
+    /* border: 1px solid red; */
+}
+
+.pizza{
+    text-align: center;
+}
+
+#subscribe{
+    border: 1px solid black;
+    height: 300px;
+    width: 1240px;
+    padding: 20px;
+    background-color: red; 
+    
+}
+
+#visit{
+    border: 1px solid black;
+    height: 300px;
+    width: 1240px;
+    padding: 20px;
+    background-color: green; 
+}
+
+.sectionTitle{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bolder;
+    margin: auto;
+}
+
+#menuBoxes{
+   float: right;
+   display: flex;
+   flex-direction: row;
+  
+}
+
+.guide{
+    margin: 20px;
+
+    /* display: inline-block;  */
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    border: 1px solid black;
+    height: 70px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.pizzaName{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+}
+
+
