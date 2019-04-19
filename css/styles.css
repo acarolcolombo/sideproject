@@ -5,30 +5,32 @@
 
 body{
     margin: 0;
+    font-family: 'Raleway', sans-serif;   
 }
 
 h1{
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;   
     text-align: center;
     font-size: 30px;
-    border: 1px solid black;
-    height: 70px;
-    width: 200px;
-    padding: 10px;
-    margin: 5px;
-    display: block;
-    z-index: 1;
-
 }
 
 h2{
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;    
     /* text-align: left; */
     font-size: 20px;
+    margin: 20px;
+}
+
+#pizzaImg{
+    width: 100%;
+}
+
+
+#logo{
+    float: left;
+    margin-left: 20px;
+    color: maroon;
+    font-weight: bold;
 }
 
 /* section{
@@ -39,39 +41,77 @@ h2{
     margin: 5px;
 } */
 
-/* #menuBoxes{
+#menuBoxes{
+    list-style: none;
+    /* margin-left: 100px; */
+    margin-top: 65px;
     float: right;
-    display: flex;
-    flex-direction: row;
-   
- } */
+    
+}
 
- #contentIntro{
+#menuBoxes li:hover{
+    background-color: maroon;
+}
+
+#menuBoxes li{
+    display: inline;
+    color: black;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#menuBoxes li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+ /* #contentIntro{
      display: flex;
-     flex-direction: row;
+     flex-direction: row; */
      /* flex-wrap: wrap; */
      /* justify-content: space-evenly; */
     /* align-items: center; */
 
-
- }
+/* 
+ } */
 
 #today{
     border: 1px solid white;
-    height: 300px;
-    width: 1240px;
     padding: 20px;
     background-color: white;
+    height: 200px;
+    text-align: center;
+
 }
 
 #sectionTitleToday{
-    float: center;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#special{
+    text-decoration: underline;
+    font-size: 30px;
+    color: maroon;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#special:hover{
+    background-color: maroon;
+    color: white;
+    font-size: 40px;
 }
 
 #menu{
     border: 1px solid black;
-    height: auto;
-    width: 1240px;
     padding: 20px;
     background: url(https://fresheverything.ca/wp-content/uploads/2015/09/ChalkboardBackground.jpg);
     background-size: 100%;
@@ -83,7 +123,6 @@ h2{
 #contentMenu{
     display: flex;
     flex-direction: center;
-    background-color: red;
     text-align: center;
 }
 
@@ -95,7 +134,7 @@ h2{
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     text-align: center;
-    background-color: green;
+    width: 100%;
 
 
     /* border: 1px solid red; */
@@ -106,13 +145,12 @@ h2{
 }
 
 #subscribe{
-    border: 1px solid black;
-    height: 300px;
-    width: 1240px;
+    border: 1px solid white;
     padding: 20px;
     background-color: white; 
     text-align: center;
     font-size: 30px;
+    height: 300px;
     
 }
 
@@ -140,9 +178,7 @@ h2{
     font-family: 'Raleway', sans-serif;
     color: black;
     font-size: 20px;
-    border: 1px solid black;
     height: 30px;
-    width: 150px;
     padding: 5px;
     margin: 5px;
 }
@@ -165,27 +201,48 @@ h2{
     color: white;
     font-weight: bold;
     font-size: 30px;
-    margin: auto;
 }
 
 #visit{
     border: 1px solid black;
-    height: 500px;
-    width: 1240px;
+    height: 400px;
     padding: 20px;
     background: url(https://fresheverything.ca/wp-content/uploads/2015/09/ChalkboardBackground.jpg);
     color: white; 
 }
 
-#contentVisit{
+#hours{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+#hours p{
+    margin-left: 55px;
+}
+
+#addy{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14pt;
+}
+
+/* #contentVisit{
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
-}
+} */
 
 #sectionTitleVisit{
-    float: center;
     color: white;
     font-size: 30px;
+    text-align: center;
+}
+
+#maps{
+    float: right;
+    margin-right: 140px;
 }
