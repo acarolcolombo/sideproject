@@ -27,7 +27,7 @@ h2{
     font-family: 'Raleway', sans-serif;
     color: black;
     font-weight: bold;
-    text-align: left;
+    /* text-align: left; */
     font-size: 20px;
 }
 
@@ -57,11 +57,15 @@ h2{
  }
 
 #today{
-    border: 1px solid black;
+    border: 1px solid white;
     height: 300px;
     width: 1240px;
     padding: 20px;
-    background-color: yellow;
+    background-color: white;
+}
+
+#sectionTitleToday{
+    float: center;
 }
 
 #menu{
@@ -106,7 +110,9 @@ h2{
     height: 300px;
     width: 1240px;
     padding: 20px;
-    background-color: red; 
+    background-color: white; 
+    text-align: center;
+    font-size: 30px;
     
 }
 
@@ -116,20 +122,14 @@ h2{
 }
 
 
-#visit{
-    border: 1px solid black;
-    height: 300px;
-    width: 1240px;
-    padding: 20px;
-    background-color: green; 
-}
 
-.sectionTitle{
+
+/* .sectionTitle{
     font-family: 'Raleway', sans-serif;
     color: black;
     font-weight: bolder;
     margin: auto;
-}
+} */
 
 
 .guide{
@@ -168,4 +168,24 @@ h2{
     margin: auto;
 }
 
+#visit{
+    border: 1px solid black;
+    height: 500px;
+    width: 1240px;
+    padding: 20px;
+    background: url(https://fresheverything.ca/wp-content/uploads/2015/09/ChalkboardBackground.jpg);
+    color: white; 
+}
 
+#contentVisit{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#sectionTitleVisit{
+    float: center;
+    color: white;
+    font-size: 30px;
+}
