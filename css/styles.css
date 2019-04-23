@@ -201,7 +201,7 @@ a{
     font-family: 'Raleway', sans-serif;
     color: white;
     /* font-weight: bold; */
-    font-size: 20px;
+    font-size: 22px;
     /* text-decoration: underline; */
 }
 
@@ -239,7 +239,7 @@ a{
 }
 
 #hours p{
-    margin-left: 55px;
+    margin-left: 75px;
 }
 
 #addy{
@@ -248,7 +248,7 @@ a{
     padding: 0;
     margin-top: 20px;
     line-height: 30px;
-    font-size: 14pt;
+    font-size: 22px;
 }
 
 /* #contentVisit{
