@@ -117,7 +117,7 @@ a{
     background-size: 100%;
     /* background-repeat: no-repeat;  */
     color: white;
-    font-size: 14pt;
+    font-size: 20px;
 }
 
 #contentMenu{
@@ -135,6 +135,7 @@ a{
     font-size: 30px;
     text-align: center;
     width: 100%;
+    font-style: bold;
 
 
     /* border: 1px solid red; */
@@ -196,11 +197,32 @@ a{
     margin: 5px;
 } */
 
-.pizzaName{
+.pizza{
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-weight: bold;
-    font-size: 30px;
+    /* font-weight: bold; */
+    font-size: 20px;
+    /* text-decoration: underline; */
+}
+
+.pizzaName1{
+    text-decoration: underline;
+}
+
+.pizzaName2{
+    text-decoration: underline;
+}
+
+#pizzaName3{
+    text-decoration: underline;
+}
+
+.pizzaName4{
+    text-decoration: underline;
+}
+
+.pizzaName5{
+    text-decoration: underline;
 }
 
 #visit{
@@ -240,6 +262,7 @@ a{
     color: white;
     font-size: 30px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 #maps{
