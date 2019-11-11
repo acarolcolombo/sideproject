@@ -21,7 +21,7 @@ h2{
     margin: 20px;
 }
 
-#pizzaImg{
+#mainImag{
     width: 100%;
 }
 
@@ -29,7 +29,7 @@ h2{
 #logo{
     float: left;
     margin-left: 20px;
-    color: maroon;
+    color: rgb(0, 128, 53);
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ h2{
 }
 
 #menuBoxes li:hover{
-    background-color: maroon;
+    background-color: rgb(0, 128, 53);
 }
 
 #menuBoxes li{
@@ -81,20 +81,35 @@ a{
 /* 
  } */
 
+ .sectionTitle{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    font-style: bold;
+ }
+
 #today{
     border: 1px solid white;
     padding: 20px;
     background-color: white;
     height: 200px;
     text-align: center;
-
-}
-
-#sectionTitleToday{
-    text-align: center;
     font-size: 30px;
-    
+
 }
+
+hr {
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, 
+rgba(0, 0, 0, 0), rgba(233, 78, 84, 0.75), rgba(0, 0, 0, 0));
+}
+
 
 #special{
     text-decoration: underline;
@@ -110,27 +125,17 @@ a{
     font-size: 40px;
 }
 
-#menu{
-    border: 1px solid black;
-    padding: 20px;
-    background: url(https://fresheverything.ca/wp-content/uploads/2015/09/ChalkboardBackground.jpg);
-    background-size: 100%;
-    /* background-repeat: no-repeat;  */
-    color: white;
-    font-size: 20px;
-}
 
-#contentMenu{
+
+/*#contentMenu{
     display: flex;
     flex-direction: center;
     text-align: center;
-}
+} */
 
 
-#sectionTitleMenu{
-    /* background: url(https://ayoqq.org/images/drawing-chalk-pizza-12.jpg); */
-    color: white;
-    /* display: block; */
+.sectionTitle{
+    color: black;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -141,34 +146,25 @@ a{
     /* border: 1px solid red; */
 }
 
-.pizza{
-    text-align: center;
+hr {
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, 
+rgba(0, 0, 0, 0), rgba(233, 78, 84, 0.75), rgba(0, 0, 0, 0));
 }
 
-#subscribe{
+#menu{
     border: 1px solid white;
     padding: 20px;
-    background-color: white; 
+    background-color: white;
+    height: 1150px;
     text-align: center;
     font-size: 30px;
-    height: 300px;
-    
 }
 
-#sectionTitleSub{
-    float: center;
-
-}
-
-
-
-
-/* .sectionTitle{
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    font-weight: bolder;
-    margin: auto;
-} */
 
 
 .guide{
@@ -199,47 +195,37 @@ a{
 
 .pizza{
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color:black;
     /* font-weight: bold; */
     font-size: 22px;
-    /* text-decoration: underline; */
-}
-
-.pizzaName1{
-    text-decoration: underline;
-}
-
-.pizzaName2{
-    text-decoration: underline;
-}
-
-#pizzaName3{
-    text-decoration: underline;
-}
-
-.pizzaName4{
-    text-decoration: underline;
-}
-
-.pizzaName5{
-    text-decoration: underline;
-}
-
-#visit{
-    border: 1px solid black;
-    height: 400px;
     padding: 20px;
-    background: url(https://fresheverything.ca/wp-content/uploads/2015/09/ChalkboardBackground.jpg);
-    color: white; 
+    background-color: white; 
+    text-align: center;
+    height: 300px;
+}
+
+.pizzaName{
+    text-decoration: underline;
+}
+
+
+#subscribe{
+    background-color: white; 
+    text-align: center;
+    font-size: 30px;
+    height: 300px;
+} 
+
+#maps{
+    float: right;
+    margin-right: 140px;
+    height: 300px;;
 }
 
 #hours{
     margin-left: 300px;
     margin-top: 80px;
-}
-
-#hours p{
-    margin-left: 75px;
+    height: 300px;
 }
 
 #addy{
@@ -249,23 +235,6 @@ a{
     margin-top: 20px;
     line-height: 30px;
     font-size: 22px;
+    height: 300px;
 }
 
-/* #contentVisit{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-evenly;
-} */
-
-#sectionTitleVisit{
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
-
-#maps{
-    float: right;
-    margin-right: 140px;
-}
