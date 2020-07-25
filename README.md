@@ -1,6 +1,6 @@
 # Side Project
 
-Buonasera prepsters! 
+Based on "Pizzaria La DevLeague" website format, I started to create my own website. 
 
 You have been tasked with creating a website for *Pizzaria La DevLeague*, the hippest pizza joint where all the cool kids go.
 Your job is to follow the instructions below and render a HTML layout in the `index.html` file. Run `live-server` in this project to see your work as you go through each step. And don't forget to commit your work.
