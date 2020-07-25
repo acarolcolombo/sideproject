@@ -5,7 +5,7 @@ Based on "Pizzaria La DevLeague" website format, I started to create my own webs
 You have been tasked with creating a website for *Pizzaria La DevLeague*, the hippest pizza joint where all the cool kids go.
 Your job is to follow the instructions below and render a HTML layout in the `index.html` file. Run `live-server` in this project to see your work as you go through each step. And don't forget to commit your work.
 
-###The Setup
+### The Setup
 
 1. Fork and clone this project.
 2. Open the `readme.md` file on one side of your text editor.
@@ -13,7 +13,7 @@ Your job is to follow the instructions below and render a HTML layout in the `in
 4. In the `index.html` file, create the basic HTML5 template layout (i.e. doctype, html lang, head and body tags, etc.).
 5. In the head tag, insert the text "Best Pizza Ever" as the content for the title tag.
 
-###The Layout
+### The Layout
 This site will have six sections:
 
 1. Header
@@ -23,7 +23,7 @@ This site will have six sections:
 5. Visit
 6. Footer
 
-###1. Header
+### 1. Header
 
 1. Create a header element with an id of "intro".
 2. Inside the header element, create a div element with a class of "content".
@@ -39,7 +39,7 @@ This site will have six sections:
 
 **Commit Your Work**
 
-###2. Today's Special
+### 2. Today's Special
 
 1. Create a section element with an id of "today".
 2. Inside the section element, create a div element with the class of "content".
@@ -48,7 +48,7 @@ This site will have six sections:
 
 **Commit Your Work**
 
-###3. Menu
+### 3. Menu
 
 1. Create a section element with an id of "menu".
 2. Inside the section element, create a div element with the class of "content".
@@ -88,7 +88,7 @@ price: 17.02
 
 **Commit Your Work**
 
-###4. Subscribe
+### 4. Subscribe
 
 1. Create a section element with an id of "subscribe".
 2. Inside the section element, create a div element with the class of "content".
@@ -100,7 +100,7 @@ price: 17.02
 
 **Commit Your Work**
 
-###5. Visit
+### 5. Visit
 
 1. Create a section element with an id of "visit".
 2. Inside the section element, create a div element with the class of "content".
@@ -117,7 +117,7 @@ price: 17.02
 
 **Commit Your Work**
 
-###6. Footer
+### 6. Footer
 
 1. Create a footer element.
 2. Inside the footer element, create a div with a class of "content".
